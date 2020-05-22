@@ -29,7 +29,7 @@ generate number in descending order till 0 for given goal and step to decrement.
     /api/tasks/{taskId}/status : Return the status for given taskId
     
         Request URL:http://localhost:8080/api/tasks/777302d0-ba9f-4c3b-83b1-fa0837f8eda0/status
-        Response body: SUCCESS/IN_PROGRESS_ERROR
+        Response body: SUCCESS/IN_PROGRESS/ERROR
 
 - To Run the application
     ```
