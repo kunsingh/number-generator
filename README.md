@@ -3,6 +3,8 @@
 A simple number generator Spring boot application. Current implementation will 
 generate number in descending order till 0 for given goal and step to decrement.
 
+Constaints: It will only work for Integer Max limit. If you decerement by step 1 then Integer.MAX/2. Most of the returns are String and String length limit is Integer.MAX incluing comma.
+
     POST
     /api : Submit a task to generate number for given goal generate criteria.
         
